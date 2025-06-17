@@ -2,29 +2,29 @@
 
 **What is Python?**
 
-Python is a high level, interpreted and Object Oriented Programming Language.
+	Python is a high level, interpreted and Object Oriented Programming Language.
 
 **Why High Level?**
 
-It allows you to write instructions in a easy to understand format, rather than complex machine code.
+	It allows you to write instructions in a easy to understand format, rather than complex machine code.
 
 **Why Interpreted?**
 
-Python doesn’t need to be compiled before running, It executes line by line using an interpreted.
+	Python doesn’t need to be compiled before running, It executes line by line using an interpreted.
 
 **OOPs:**
 
 **Ex:**
 
-Object → It is real world entity contain State, behaviors. 
+	Object → It is real world entity contain State, behaviors. 
 
-State → Represent as instance variables or attributes.
+	State → Represent as instance variables or attributes.
 
-Behavior → Represent by methods or functions.
+	Behavior → Represent by methods or functions.
 
-Class → Class is a blueprint.
+	Class → Class is a blueprint.
 
-Constructor → It will be called at the time of creating an object.
+	Constructor → It will be called at the time of creating an object.
 
 **Syntax:**
 
@@ -44,18 +44,18 @@ d1.info()
 
 **o/p:**
 
-Bruno is barking
+	Bruno is barking
 
-Bruno is Labrador
+	Bruno is Labrador
 
 **Explanation:**
 
-class =Dog
+	class =Dog
 
-def is an function
+	def is an function
 
-init is a constructor
+	init is a constructor
 
-self refers current class object
+	self refers current class object
 
-f → format
+	f → format
