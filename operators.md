@@ -192,7 +192,7 @@
 
   It simply allows testing a condition in a **single line** replacing the multiline if-else making the code compact.
 
-***Syntax :**  
+**Syntax :**  
 
 [on_true] if [expression] else [on_false]* 
 
