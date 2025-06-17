@@ -1,8 +1,10 @@
 # Syntax Rules
 **1.What is syntax rule?**
+
   Syntax is the set of rules that define how a python program is written and interpreted.
   
 **2.Why is python syntax important?**
+
   If you break the syntax rule, you will get error and your program won’t run.
   
 **3.What is python syntax rules?**
