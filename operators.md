@@ -44,7 +44,7 @@
 
 **2.Comparison Operator:**
 
-  In Python [**Comparison](https://www.geeksforgeeks.org/python-object-comparison-is-vs/) [](https://www.geeksforgeeks.org/relational-operators-in-python/)**of [**Relational operators**](https://www.geeksforgeeks.org/relational-operators-in-python/) compares the values. It either returns **True** or **False** according to the condition(Boolean Type Result).
+  In Python [**Comparison**](https://www.geeksforgeeks.org/python-object-comparison-is-vs/) [](https://www.geeksforgeeks.org/relational-operators-in-python/) of [**Relational operators**](https://www.geeksforgeeks.org/relational-operators-in-python/) compares the values. It either returns **True** or **False** according to the condition(Boolean Type Result).
 
   | Operator | Operator Name |
   | --- | --- |
