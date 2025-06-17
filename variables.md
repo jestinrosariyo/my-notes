@@ -26,13 +26,13 @@
   Python is a Dynamic typed Programming Language.
 
 **How many ways to assign the values to variable?**
-  1)a=10
+  **1)a=10**
     b=a
   a assigned value 10 and b assigned to a. So, a=10 and b=a(10) then b=10.
   By Using Unpacking also, a variable can get the value.
 
-  2)Unpacking:
-  **Syntax:**
+  **2)Unpacking:**
+  - **Syntax:**
   ```python
   a,b,c='Hai'
   print(a)
@@ -41,7 +41,7 @@
   a→ H , b→ a ,c→ i
   Each variables are pointing towards their values.
 
-  3)Packing:
+  **3)Packing:**
   ```python
   a,b,c='Hai'
   d=a+b+c
