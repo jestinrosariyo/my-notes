@@ -24,6 +24,7 @@
   2. Implicit type casting.
 
 **1.Explicit type casting:**
+
   For every data type one type casting function will be there.
 
 **Ex:**
@@ -36,6 +37,7 @@ string →str
 boolean →bool
 
 **2.Implicit type casting:**
+
   It covert value or variable into a different data type automatically is called implicit type casting.
 
 ### **What is input()?**
