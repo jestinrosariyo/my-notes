@@ -83,9 +83,9 @@
     - int
     - float
     - complex
-    
-    **Ex:**
-    
+
+  **Ex:**
+  
     num= 2+3j
     
     j → represents the imaginary unit 
@@ -211,7 +211,7 @@
   s='Hello'
   s1="Hello"
   s2='''Hello'''
-    s3="""Hello"""
+  s3="""Hello"""
 ```
 
   - String allows duplicate values.
@@ -227,7 +227,7 @@
 
        0    1  2   3  4  5  6  7 
 
-s=   S    r   i   n   i   v  a   s
+      s=   S    r   i   n   i   v  a   s
 
       -8 -7 -6 -5 -4 -3 -2 -1
 
@@ -314,7 +314,7 @@ s=   S    r   i   n   i   v  a   s
   ```
 
 **2.index()**
-  '''python
+   ```python
   t=(10,20,30,40,10,20)
   t.index(2)
-  '''
+  ```
