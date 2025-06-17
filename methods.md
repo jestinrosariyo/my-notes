@@ -129,7 +129,9 @@
   ```
 
 19.`strip()` → Remove leading and trailing spaces.
+
 20.`lstrip()` → Remove leading spaces. Left side.
+
 21.`rstrip()` → Remove trailing spaces. Right side.
   ```python
   # Remove leading whitespace from a string
@@ -139,6 +141,7 @@
   ```
 
 21.`startswith()` → Check if a string starts with a specific substring.
+
 22.`endswith()` → Check if a string ends with a specific substring.
   ```python
   # Check if a string starts with a specific substring
