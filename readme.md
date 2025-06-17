@@ -1,6 +1,6 @@
 # This is my notes
 ### Table of Contents
-- [Basics of Python](./deployment.nd)
+- [Basics of Python](./deployment.md)
 
 **What is Python?**
 
