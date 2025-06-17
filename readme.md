@@ -3,3 +3,4 @@
 - [Basics of Python](./basics.md)
 - [Quotation in Python](./quotation.md)
 - [Functions and Indentation](./indentation.md)
+- [Variables](./variables.md)
