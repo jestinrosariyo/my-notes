@@ -1,8 +1,10 @@
 # Syntax Rules
 **1.What is syntax rule?**
   Syntax is the set of rules that define how a python program is written and interpreted.
+  
 **2.Why is python syntax important?**
   If you break the syntax rule, you will get error and your program won’t run.
+  
 **3.What is python syntax rules?**
 
   |             **Rule** |                           **Description** |                  **Example** |
@@ -26,9 +28,11 @@
   - The value which are fixed are called as constants.
   - In the python programming language constants are types of variables whose value cannot be allowed or changed after initialization.
   - Constants variable should be in uppercase, it is meaning that the value should not change.
+  - 
 **Ex:** 
     MAX_AGE =25
     is a constant variable, which mean no other developer should change this variable.
+    
 **Syntax:**
   ```python
   total=1+2+\
