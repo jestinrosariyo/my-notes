@@ -1,5 +1,6 @@
 # This is my notes
-# Basics of Python
+### Table of Contents
+- [Basics of Python](./deployment.nd)
 
 **What is Python?**
 
