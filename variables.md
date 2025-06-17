@@ -1,28 +1,28 @@
 # Variables
-  -Variable is used to accessing the value from the memories.
-  -It is a storage container that add data and values.
-  -String variables can be declared either using Single or Double quotes.
+  - Variable is used to accessing the value from the memories.
+  - It is a storage container that add data and values.
+  - String variables can be declared either using Single or Double quotes.
 
 **Variables and its dimensions:**
-  1.Name → Identify the Variable.
-  2.Datatype → Determine the type, memory required and operations that can be performed on it.
-  3.Address → Specify where it is stored.
-  4.Value → Data held by the Variable.
-  5.Lifetime → Specify how long it will be stored in memory.
-  6.Scope → Specify where it can be accessed.
+  - 1.Name → Identify the Variable.
+  - 2.Datatype → Determine the type, memory required and operations that can be performed on it.
+  - 3.Address → Specify where it is stored.
+  - 4.Value → Data held by the Variable.
+  - 5.Lifetime → Specify how long it will be stored in memory.
+  - 6.Scope → Specify where it can be accessed.
 
-**Syntax:**
+- **Syntax:**
   ```python
   a=10
   b=20
   print(a+b)
   ```
-**o/p:**
+- **o/p:**
   30
-**Explanation:**
+- **Explanation:**
   →a and b are variables.
   →10 and 20 are the Values.
-**Notes:**
+- **Notes:**
   Python is a Dynamic typed Programming Language.
 
 **How many ways to assign the values to variable?**
