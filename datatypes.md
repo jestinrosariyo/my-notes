@@ -408,9 +408,15 @@
         ptint([1,2]*3)
       ```
   - ->Every elememt in list object contains unique index value
-
-
-
+  - ->List object contain's both forward and backward indexing
+  - ->Forward indexing start from 0 and it represents the first elements of the given object
+  - ->Backward indexing start from -1 and it represents the last elements of the given object
+  - ->List supporting indexing
+  - ->List supporting slicing
+  - ->Object[start_index value,end_index value,step_value]
+  - ->By default start_index value is 0
+  - ->By default end_index value is object length
+  - ->By default step_index value is 1
 
 
 
