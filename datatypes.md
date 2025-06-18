@@ -369,13 +369,45 @@
    # o/p:
    10
    sum(t)
-  # o/p:
-  100
+   # o/p:
+   100
   ```
-#List Data Type
+# List Data Type
 
-
-
+  The sequence of ordered elements which are seprated by comma and enclosed in between square brackets is called List object.
+  - ->List object allows both mutable and immutanble types data inside it.
+     ```python
+        my_list=[10,20.30,'Hi',(1,2,3),[1,2],{1,2},{1:10}]
+      ```
+  - ->Homogeneous List object
+     ```python
+        my_list=[10,20,30,40]
+      ```
+  - ->Heterogeneous List object
+     ```python
+        my_list=[10,20.30,'Hi',(1,2,3),[1,2]]
+      ```
+  - ->Creating multiple elements list
+      ```python
+         my_list=[10,20,30,40]
+      ```
+  - ->Creating single element list
+      ```python
+         t1=[10]
+      ```
+  - ->List datatype representing by using list "list" datatype
+  - ->List allows duplicate value
+  - ->List follows inserting order
+  - ->List is a mutable object that can be edited
+  - ->List supporting cancatenation behaviour
+      ```python
+       ptint([1,2]+[3,4])
+      ```
+  - ->List supporting repeatition behaviour
+     ```python
+        ptint([1,2]*3)
+      ```
+  - ->Every elememt in list object contains unique index value
 
 
 
