@@ -318,3 +318,77 @@
   t=(10,20,30,40,10,20)
   t.index(2)
   ```
+**How we can say that tuple is immutable**
+  ```python
+  t=(10,20,30,40,10,20)
+  t[0]=15
+  # TypeError
+  print(id(t))
+  # o/p:
+  1020303405060
+
+  t=t+(50,60)
+  id(t)
+  # Id Name will be Changed
+  del (t)
+  # Name Error
+
+  t=(20,40,10,30)
+  t2=Sorted(t)
+  print(t2)
+  # o/p:
+  [10,20,30,40] # Print as the List
+
+  t3=tuple(sorted(t,reverse=True))
+  print(t3)
+  # o/p:
+  (30,10,40,20)
+  # Another Way
+  print(reversed(t))
+  # o/p:
+  <reversed object at 0x0000001>
+  print(tuple(reversed(t)))
+  # o/p:
+  (30,10,40,20)
+  ```
+**Gobal Functions**
+  - sorted(object)
+  - reversed(object)
+  - print(object)
+  - type(object)
+  - id(object)
+  - max(object)
+  - min(object)
+  - sum(object)
+
+```python
+   max(t)
+   # o/p:
+   40
+   min(t)
+   # o/p:
+   10
+   sum(t)
+  # o/p:
+  100
+  ```
+#List Data Type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
