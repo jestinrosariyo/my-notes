@@ -498,6 +498,7 @@
                print(l4)```
 	       
 ***del*** - delete the position in list.
+
 	    ```python
             # Delete
             print("----Delete----")
