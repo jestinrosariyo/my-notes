@@ -435,8 +435,7 @@
               print(l)
 
               l.append([30,40])
-              print(l) # Added a list inside the list
-             ```
+              print(l) # Added a list inside the list```
 ***extend()*** - add at the end position and iterable  object.
 	      ```python
               # Extend method 
@@ -448,8 +447,7 @@
               print(l2)
 
               l2.extend([30,40])
-              print(l2) 
-              ```
+              print(l2)```
 ***insert()*** - you can add at the any position of the list.
 		```python
                # Insert Method
@@ -464,8 +462,7 @@
                 print(l3)
 
                 l3.insert(4,(10,20,30))
-                print(l3)  
-                ```
+                print(l3) ```  
 **2.How to remove the existing elements from the given list object?**
 
       By using remove(), pop(), clear() and del keyword also we can remove element in list.
@@ -478,8 +475,7 @@
             print(len(l4))
 
             l4.remove(8)
-            print(l4) 
-            ```
+            print(l4)``` 
 ***pop()*** - remove element at both last position and the given index position.
 	     ```python
              # Pop 
@@ -490,15 +486,13 @@
              l4.pop(5) # Remove the given index value position
              print(l4)
 
-             # l4.pop(7) # No index position available  
-            ```
+             # l4.pop(7) # No index position available```
 ***clear()*** - removes all the elements in the list.
 		```python
                # Clear
                print("----Clear----")
                l4.clear() # Removes all items from list
-               print(l4)
-              ```
+               print(l4)```
 ***del*** - delete the position in list.
 	    ```python
             # Delete
@@ -512,8 +506,8 @@
             print(id(l4))
             # Also delete the list totally
             del l4
-            # print(l4) 
-          ```
+            # print(l4) ```
+         
 
 
 
