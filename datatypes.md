@@ -418,7 +418,98 @@
   - ->By default end_index value is object length
   - ->By default step_index value is 1
 
+# List Data Type Methods:
+  **1.How to add the new elements in to given list object?**
+	        By using append(), extends() and insert() we can add the new elements.
+  ***append()*** - add element at the end position.
+            ```python
+              # Append method
+              l=[10]
+              print(l)
+              l.append(20)
+              print(l)  # Output: [10, 20]  
+              # Add multiple elements
+              l.append('python')
+              print(l)
 
+              l.append([30,40])
+              print(l) # Added a list inside the list
+             ```
+***extend()*** - add at the end position and iterable  object.
+              ```python
+              # Extend method 
+              print("-----Extend-----")
+              l2=[11]
+              # l2.extend(20)
+
+              l2.extend('python') # print every element as a separate element
+              print(l2)
+
+              l2.extend([30,40])
+              print(l2) 
+              ```
+***insert()*** - you can add at the any position of the list.
+              ```python
+               # Insert Method
+                print("-----Insert-----")
+                l3=[1,3,4,5,6,7]
+                print(len(l3))
+
+                l3.insert(1,2)
+                print(l3)
+
+                l3.insert(8,8)
+                print(l3)
+
+                l3.insert(4,(10,20,30))
+                print(l3)  
+                ```
+**2.How to remove the existing elements from the given list object?**
+      By using remove(), pop(), clear() and del keyword also we can remove element in list.
+***remove()*** - remove the given element at the first position of the index.
+            ```python
+            # Remove Method
+            print("----Remove-----")
+            l4=[3,5,6,8,2,8,9,3,5,6]
+            print(len(l4))
+
+            l4.remove(8)
+            print(l4) 
+            ```
+***pop()*** - remove element at both last position and the given index position.
+            ```python
+             # Pop 
+             print("----Pop-----")
+             l4.pop() # Remove the last element in list
+             print(l4)
+
+            l4.pop(5) # Remove the given index value position
+            print(l4)
+
+            # l4.pop(7) # No index position available  
+            ```
+***clear()*** - removes all the elements in the list.
+              ```python
+               # Clear
+               print("----Clear----")
+               l4.clear() # Removes all items from list
+               print(l4)
+              ```
+***del*** - delete the position in list.
+            ```python
+            # Delete
+            print("----Delete----")
+            print(id(l4))
+            del l4[2] # Delete the position that given
+            print(l4) 
+
+            del l4[3:5]
+            print(l4)
+            print(id(l4))
+            # Also delete the list totally
+            del l4
+            # print(l4) 
+          ```
 
 
 
