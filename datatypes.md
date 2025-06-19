@@ -425,14 +425,9 @@
 	 
   ***append()*** - add element at the end position.
   	      ```python
-              # Append method
-              l=[10]
-              print(l)
-              l.append(20)
-              print(l)  # Output: [10, 20]  
-              # Add multiple elements
-              l.append('python')
-              print(l)
+	         l.append([30,40])
+          	 print(l) # Added a list inside the list
+	      ```
 
               l.append([30,40])
               print(l) # Added a list inside the list```
