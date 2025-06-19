@@ -425,12 +425,19 @@
 	 
   ***append()*** - add element at the end position.
   	      ```python
-	         l.append([30,40])
-          	 print(l) # Added a list inside the list
-	      ```
+	 	# Append method
+		l=[10]
+		print(l)
+		l.append(20)
+		print(l)  # Output: [10, 20]
 
-              l.append([30,40])
-              print(l) # Added a list inside the list```
+		# Add multiple elements
+		l.append('python')
+		print(l)
+
+		l.append([30,40])
+		print(l) # Added a list inside the list
+	      ```
 ***extend()*** - add at the end position and iterable  object.
 	      ```python
               # Extend method 
@@ -473,6 +480,7 @@
             print(l4)```
 	    
 ***pop()*** - remove element at both last position and the given index position.
+
 	     ```python
              # Pop 
              print("----Pop-----")
