@@ -424,8 +424,7 @@
 	        By using append(), extends() and insert() we can add the new elements.
 	 
   ***append()*** - add element at the end position.
-  
-            ```python
+  	      ```python
               # Append method
               l=[10]
               print(l)
@@ -439,8 +438,7 @@
               print(l) # Added a list inside the list
              ```
 ***extend()*** - add at the end position and iterable  object.
-
-              ```python
+	      ```python
               # Extend method 
               print("-----Extend-----")
               l2=[11]
@@ -453,8 +451,7 @@
               print(l2) 
               ```
 ***insert()*** - you can add at the any position of the list.
-
-              ```python
+		```python
                # Insert Method
                 print("-----Insert-----")
                 l3=[1,3,4,5,6,7]
@@ -474,8 +471,7 @@
       By using remove(), pop(), clear() and del keyword also we can remove element in list.
       
 ***remove()*** - remove the given element at the first position of the index.
-
-            ```python
+	    ```python
             # Remove Method
             print("----Remove-----")
             l4=[3,5,6,8,2,8,9,3,5,6]
@@ -485,29 +481,26 @@
             print(l4) 
             ```
 ***pop()*** - remove element at both last position and the given index position.
-
-            ```python
+	     ```python
              # Pop 
              print("----Pop-----")
              l4.pop() # Remove the last element in list
              print(l4)
 
-            l4.pop(5) # Remove the given index value position
-            print(l4)
+             l4.pop(5) # Remove the given index value position
+             print(l4)
 
-            # l4.pop(7) # No index position available  
+             # l4.pop(7) # No index position available  
             ```
 ***clear()*** - removes all the elements in the list.
-
-              ```python
+		```python
                # Clear
                print("----Clear----")
                l4.clear() # Removes all items from list
                print(l4)
               ```
 ***del*** - delete the position in list.
-
-            ```python
+	    ```python
             # Delete
             print("----Delete----")
             print(id(l4))
