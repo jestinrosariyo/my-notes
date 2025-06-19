@@ -420,8 +420,11 @@
 
 # List Data Type Methods:
   **1.How to add the new elements in to given list object?**
+  
 	        By using append(), extends() and insert() we can add the new elements.
+	 
   ***append()*** - add element at the end position.
+  
             ```python
               # Append method
               l=[10]
@@ -436,6 +439,7 @@
               print(l) # Added a list inside the list
              ```
 ***extend()*** - add at the end position and iterable  object.
+
               ```python
               # Extend method 
               print("-----Extend-----")
@@ -449,6 +453,7 @@
               print(l2) 
               ```
 ***insert()*** - you can add at the any position of the list.
+
               ```python
                # Insert Method
                 print("-----Insert-----")
@@ -465,8 +470,11 @@
                 print(l3)  
                 ```
 **2.How to remove the existing elements from the given list object?**
+
       By using remove(), pop(), clear() and del keyword also we can remove element in list.
+      
 ***remove()*** - remove the given element at the first position of the index.
+
             ```python
             # Remove Method
             print("----Remove-----")
@@ -477,6 +485,7 @@
             print(l4) 
             ```
 ***pop()*** - remove element at both last position and the given index position.
+
             ```python
              # Pop 
              print("----Pop-----")
@@ -489,6 +498,7 @@
             # l4.pop(7) # No index position available  
             ```
 ***clear()*** - removes all the elements in the list.
+
               ```python
                # Clear
                print("----Clear----")
@@ -496,6 +506,7 @@
                print(l4)
               ```
 ***del*** - delete the position in list.
+
             ```python
             # Delete
             print("----Delete----")
