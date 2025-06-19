@@ -475,7 +475,8 @@
             print(len(l4))
 
             l4.remove(8)
-            print(l4)``` 
+            print(l4)```
+	    
 ***pop()*** - remove element at both last position and the given index position.
 	     ```python
              # Pop 
@@ -487,12 +488,14 @@
              print(l4)
 
              # l4.pop(7) # No index position available```
+	     
 ***clear()*** - removes all the elements in the list.
-		```python
+	       ```python
                # Clear
                print("----Clear----")
                l4.clear() # Removes all items from list
                print(l4)```
+	       
 ***del*** - delete the position in list.
 	    ```python
             # Delete
