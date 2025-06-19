@@ -490,6 +490,7 @@
              # l4.pop(7) # No index position available```
 	     
 ***clear()*** - removes all the elements in the list.
+
 	       ```python
                # Clear
                print("----Clear----")
