@@ -418,7 +418,7 @@
   - ->By default end_index value is object length
   - ->By default step_index value is 1
 
-**List Data Type Methods:**
+## List Data Type Methods:
 
 1. **How to add the new elements in to given list object?**
     
@@ -478,7 +478,7 @@ print(l3)
 
 **2.How to remove the existing elements from the given list object?**
 
-By using remove(), pop(), clear() and del keyword also we can remove element in list.
+      By using remove(), pop(), clear() and del keyword also we can remove element in list.
 
 **remove()** - remove the given element at the first position of the index.
 
